@@ -1,0 +1,9 @@
+{
+   "username_example": {
+      "login": "userlogin",
+      "password": "userpassword",
+      "age": "userage",
+      "country": "usercountry",
+      "sex": "None"
+   }
+}
