@@ -54,7 +54,7 @@ def regsubmit():
 
     regname = 'user_' + register_frame_username.get().lower()
 
-    if 3 <= len(register_frame_username.get()) <= 12 and 4 <= len(register_frame_password.get()) <= 12:
+    if 3 <= len(register_frame_username.get()) <= 10 and 4 <= len(register_frame_password.get()) <= 10:
         with open(path + 'data.json', 'r') as datajson:
             data = json.load(datajson)
 
