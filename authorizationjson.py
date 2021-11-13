@@ -258,10 +258,10 @@ def edit(x, y, z, c, what):
                         ok.place(relwidth=0.10, relheight=0.1, relx=0.90, rely=0.6)
 
             elif len(newname) < 4:
-                profile_message.set('Status must be greater than 4 characters')            
+                profile_message.set('Password must be greater than 4 characters')            
 
             else:
-                profile_message.set('Status must be less than 12 characters')      
+                profile_message.set('Password must be less than 12 characters')      
 
 
         #######################============================= EDIT DATA ( CLEAN AFTER EDIT )  
