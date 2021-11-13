@@ -242,7 +242,7 @@ def edit(x, y, z, c, what):
         elif what == 'pass':
             newname = new.get()
 
-            if 4 <= len(newname) <= 12:  
+            if 4 <= len(newname) <= 10:  
                 
                 if newname == data[logname]['password']:
                     profile_message.set('Old and new Password cannot be same') 
@@ -261,7 +261,7 @@ def edit(x, y, z, c, what):
                 profile_message.set('Password must be greater than 4 characters')            
 
             else:
-                profile_message.set('Password must be less than 12 characters')      
+                profile_message.set('Password must be less than 10 characters')      
 
 
         #######################============================= EDIT DATA ( CLEAN AFTER EDIT )  
